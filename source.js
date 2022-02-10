@@ -39,8 +39,7 @@ function beginActivity(){
  $("#buttonArea").empty();
  $("#buttonArea").append('<div id="nextButton">NEXT</div>');
  $("#nextButton").on("click",function(){
-  beginActivity();
-  }
+  beginActivity();  
  });//click function
 }//beginactivity
 
